@@ -1,0 +1,25 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class Convert {
+
+    public static void main(String[] arg) {
+       double A;
+       double B;
+       double C;
+       Scanner in = new Scanner(System.in);
+
+       System.out.print("Podaj liczbe A: ");
+       A = in.nextDouble();
+       System.out.print("Podaj liczbe B: ");
+       B = in.nextDouble();
+       System.out.print("Podaj liczbe C: ");
+       C = in.nextDouble();
+       System.out.print("Wynik dodawania: ");
+       System.out.println( A + B + C );
+       System.out.print("Wynik mnozenia: ");
+       System.out.println( A * B * C);
+       System.out.print("Wynik odejmowania: ");
+       System.out.println( A - B - C);
+       System.out.print("Wynik dzielania: ");
+       System.out.println( A / B / C);
